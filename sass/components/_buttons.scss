@@ -1,0 +1,38 @@
+.buttons-container {
+  display: flex;
+}
+
+%button-shared {
+  padding: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 50%;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: 1.3em;
+  color: $colorText;
+
+  &:hover {
+    color: $colorText;
+  }
+}
+
+@mixin button_color($color){
+  background-color: $color;
+
+
+  &:hover {
+    background-color: darken($color, 10%);
+    border: 1px solid $color;
+  }
+}
+
+.button-alien {
+  @extend %button-shared;
+  @include button_color($colorMainGreen)
+}
+
+.button-predator {
+  @extend %button-shared;
+  @include button_color($colorMainGrey)
+}

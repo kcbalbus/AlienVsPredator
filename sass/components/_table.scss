@@ -1,0 +1,28 @@
+
+.table-main {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  text-align: center;
+
+  th, td {
+    padding: 10px;
+    border: 1px solid $colorMainGreen;
+    font-size: 1.2em;
+  }
+
+  th {
+    background-color: $colorMainGreen;
+    color: $colorText;
+    font-size: 1.2em;
+  }
+
+  img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  tr:nth-child(even) {
+    background-color: #333;
+  }
+}

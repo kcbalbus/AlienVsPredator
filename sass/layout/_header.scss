@@ -1,0 +1,14 @@
+@import "../helpers/variables";
+
+header {
+  background-color: $colorBackground;
+  color: $colorText;
+  padding: 20px;
+  text-align: center;
+
+
+  h1 {
+    font-family: $fontHeader;
+    margin: 0;
+  }
+}
