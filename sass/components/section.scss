@@ -1,0 +1,14 @@
+@import "gallery";
+.content-section {
+  .type-header {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+  }
+  img {
+    height: 400px;
+    width: auto;
+    @include img-grow(1.1)
+  }
+}
+

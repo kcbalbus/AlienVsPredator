@@ -1,0 +1,30 @@
+body {
+  background-color: yellow;
+  color: white;
+  font-family: "Agency FB", serif;
+  background-size: 10%;
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  @media (min-width: 1300px) {
+    background-image:
+            url('../../img/alien — kopia.png'),
+            url('../../img/alien.png');
+
+  }
+}
+.main-body {
+  width: 60%;
+  background-color: #333333;
+  height: 30%;
+  padding: 25px;
+  align-self: center;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+

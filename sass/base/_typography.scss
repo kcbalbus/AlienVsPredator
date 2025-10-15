@@ -1,3 +1,5 @@
+@import "../helpers/variables";
+
 h1, h2, h3, p {
   margin-bottom: 1em;
 }
@@ -12,4 +14,32 @@ h2 {
 
 p {
   font-size: 1.5em;
+}
+
+h4 {
+  font-size: 2.0em;
+}
+
+li {
+  font-size: $fontTable;
+}
+
+td b {
+  font-size: $fontTable * 1.1;
+}
+
+.highlight {
+  font-size: $fontTable * 2.0;
+}
+
+.content-section {
+  h3 {
+    font-size: $fontSection * 2.0;
+  }
+  p {
+    font-size: $fontSection;
+  }
+  h4 {
+    font-size: $fontSection * 1.5;
+  }
 }

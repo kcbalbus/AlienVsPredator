@@ -1,0 +1,265 @@
+@charset "UTF-8";
+body {
+  background-color: yellow;
+  color: white;
+  font-family: "Agency FB", serif;
+  background-size: 10%;
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (min-width: 1300px) {
+  body {
+    background-image: url("../../img/alien — kopia.png"), url("../../img/alien.png");
+  }
+}
+
+.main-body {
+  width: 60%;
+  background-color: #333333;
+  height: 30%;
+  padding: 25px;
+  align-self: center;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  border: 2px solid #000000;
+  padding: 10px;
+  list-style-type: none;
+  width: 150px;
+  margin: 10px;
+}
+.nav li {
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+.nav li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+li {
+  font-size: 1.4em;
+}
+
+td b {
+  font-size: 1.54em;
+}
+
+.highlight {
+  font-size: 2.8em;
+}
+
+.content-section h3, .gallery h3 {
+  font-size: 2.8em;
+}
+.content-section p, .gallery p {
+  font-size: 1.4em;
+}
+.content-section h4, .gallery h4 {
+  font-size: 2.1em;
+}
+
+.gallery img {
+  height: 350px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+.content-section .type-header, .gallery .type-header {
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+.content-section img, .gallery img {
+  height: 400px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+.content-section img:hover, .gallery img:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+  border: 2px solid #000000;
+  padding: 10px;
+  list-style-type: none;
+  width: 150px;
+  margin: 10px;
+}
+.nav li {
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+.nav li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.gallery img {
+  height: 350px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+.info {
+  margin: 10px;
+  width: 200px;
+  float: right;
+  border: 2px solid #000000;
+}
+
+.highlight {
+  background-color: #00cc00;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+tr, td {
+  border-top: 2px solid #000000;
+}
+
+table img {
+  width: 500px;
+  height: 300px;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+li {
+  font-size: 1.4em;
+}
+
+td b {
+  font-size: 1.54em;
+}
+
+.highlight {
+  font-size: 2.8em;
+}
+
+.content-section h3, .gallery h3 {
+  font-size: 2.8em;
+}
+.content-section p, .gallery p {
+  font-size: 1.4em;
+}
+.content-section h4, .gallery h4 {
+  font-size: 2.1em;
+}
+
+.gallery img {
+  height: 350px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+.content-section .type-header, .gallery .type-header {
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+.content-section img, .gallery img {
+  height: 400px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+.content-section img:hover, .gallery img:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background-color: yellow;
+  color: white;
+  font-family: "Agency FB", serif;
+  background-size: 10%;
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (min-width: 1300px) {
+  body {
+    background-image: url("../../img/alien — kopia.png"), url("../../img/alien.png");
+  }
+}
+
+.main-body {
+  width: 60%;
+  background-color: #333333;
+  height: 30%;
+  padding: 25px;
+  align-self: center;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery img {
+  height: 350px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=wiki.css.map */

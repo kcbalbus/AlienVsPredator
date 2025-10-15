@@ -1,0 +1,22 @@
+.nav {
+  border: 2px solid #000000;
+  padding: 10px;
+  list-style-type: none;
+  width: 150px;
+  margin: 10px;
+  li {
+    padding: 8px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    a {
+      text-decoration: none;
+      display: block;
+      color: white;
+    }
+  }
+}
+
+div {
+  text-align: center;
+  text-decoration: #00cc00;
+}
